@@ -3,6 +3,7 @@ import 'dart:developer' as developer;
 import 'dart:async';
 import 'dart:io';
 
+import 'package:better_player_enhanced/better_player.dart';
 import 'package:dji/flight.dart';
 import 'package:dji/messages.dart';
 import 'package:flutter/material.dart';
@@ -15,7 +16,6 @@ import 'package:ffmpeg_kit_flutter_full_gpl/ffmpeg_kit_config.dart';
 import 'package:path_provider/path_provider.dart';
 // import 'package:flutter_vlc_player/flutter_vlc_player.dart';
 // import 'package:native_video_view/native_video_view.dart';
-import 'package:better_player/better_player.dart';
 import 'package:local_assets_server/local_assets_server.dart';
 
 class ExampleWidget extends StatefulWidget {

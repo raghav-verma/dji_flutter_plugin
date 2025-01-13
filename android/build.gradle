@@ -27,7 +27,8 @@ apply plugin: "kotlin-android"
 apply plugin: "kotlinx-serialization"
 
 android {
-    compileSdk 33
+    namespace = "com.dji.sdk"
+    compileSdk 34
     useLibrary "org.apache.http.legacy"
 
     compileOptions {
